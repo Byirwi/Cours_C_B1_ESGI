@@ -54,8 +54,7 @@
 //         i++;
 //         }
 //     }
-// motif 4
-#include <stdio.h>
+// motif 4#include <stdio.h>
 
 // int main() {
 //     // Déclaration et initialisation du nombre de lignes du triangle
@@ -77,7 +76,6 @@
 //     return 0;
 // }
 
-#include <stdio.h>
 // Exo2
 int main() {
     // Déclaration et initialisation du tableau
