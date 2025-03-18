@@ -10,4 +10,5 @@ add_executable(Cours_B1_ESGI "Semestre 1/main.c"
         "Semestre 2/Exo/Cours_Loops.c"
         "Semestre 2/Exo/Cours_Loops.c"
         "Exo entrainement/Loops.c"
+        "Semestre 2/Exo/FIle.c"
 )

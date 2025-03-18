@@ -1,5 +1,5 @@
 "C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.3.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\liamf\CLionProjects\Cours_B1_ESGI -B C:\Users\liamf\CLionProjects\Cours_B1_ESGI\cmake-build-debug
--- Configuring done (0.3s)
+-- Configuring done (0.2s)
 CMake Error at CMakeLists.txt:6 (add_executable):
   Cannot find source file:
 
