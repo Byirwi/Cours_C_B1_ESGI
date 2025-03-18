@@ -77,35 +77,35 @@
 // }
 
 // Exo2
-int main() {
-    // Déclaration et initialisation du tableau
-    int tableau[] = {1, 3, 5, 7, 9};
-
-    // Calcul de la taille du tableau
-    int taille_tableau = sizeof(tableau) / sizeof(tableau[0]);
-
-    // Déclaration des variables pour la valeur cible et la position
-    int valeur_cible;
-    int position = -1;
-
-    // Demande à l'utilisateur d'entrer la valeur cible
-    printf("Entrez la valeur cible: ");
-    scanf("%d", &valeur_cible);
-
-    // Boucle pour parcourir le tableau et chercher la valeur cible
-    for (int i = 0; i < taille_tableau; i++) {
-        if (tableau[i] == valeur_cible) {
-            position = i;
-            break; // Arrêter la boucle si la valeur cible est trouvée
-        }
-    }
-
-    // Vérification si la valeur cible a été trouvée et affichage du résultat
-    if (position != -1) {
-        printf("La valeur cible %d se trouve a la position: %d\n", valeur_cible, position);
-    } else {
-        printf("La valeur cible n'a pas été trouvée dans le tableau.\n");
-    }
-
-    return 0;
-}
+// int main() {
+//     // Déclaration et initialisation du tableau
+//     int tableau[] = {1, 3, 5, 7, 9};
+//
+//     // Calcul de la taille du tableau
+//     int taille_tableau = sizeof(tableau) / sizeof(tableau[0]);
+//
+//     // Déclaration des variables pour la valeur cible et la position
+//     int valeur_cible;
+//     int position = -1;
+//
+//     // Demande à l'utilisateur d'entrer la valeur cible
+//     printf("Entrez la valeur cible: ");
+//     scanf("%d", &valeur_cible);
+//
+//     // Boucle pour parcourir le tableau et chercher la valeur cible
+//     for (int i = 0; i < taille_tableau; i++) {
+//         if (tableau[i] == valeur_cible) {
+//             position = i;
+//             break; // Arrêter la boucle si la valeur cible est trouvée
+//         }
+//     }
+//
+//     // Vérification si la valeur cible a été trouvée et affichage du résultat
+//     if (position != -1) {
+//         printf("La valeur cible %d se trouve a la position: %d\n", valeur_cible, position);
+//     } else {
+//         printf("La valeur cible n'a pas été trouvée dans le tableau.\n");
+//     }
+//
+//     return 0;
+// }
